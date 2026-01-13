@@ -2,7 +2,7 @@
 
 ## Under Review | Adaptive Enlightening Model for Endoscopy Based on 3D Gaussian Splatting
 
-📝 Paper coming soon on arXiv  
+📝  
 👨‍🔬 Authors: Fei Xia,Yiding Wen,Yuanfan Liu,Huanmei Guan,and Fei Luo
 🏛️ Affiliation: School of Computer Science, Wuhan University
 

@@ -2,7 +2,7 @@
 
 ## Under Review | Adaptive Enlightening Model for Endoscopy Based on 3D Gaussian Splatting
 
-📝  
+📝 
 👨‍🔬 Authors: Fei Xia, Yiding Wen, Yuanfan Liu, Huanmei Guan, and Fei Luo  
 🏛️ Affiliation: School of Computer Science, Wuhan University
 
@@ -20,12 +20,6 @@ Comprehensive experiments on the VEIDLA (synthetic) and C3VD (real-world) endosc
 ### Ablation Study Highlights
 📊 Key component validation on VEIDLA dataset (PSNR↑, SSIM↑, LPIPS↓):
 - Complete AdaEndoGS: PSNR=22.936, SSIM=0.908, LPIPS=0.165
-- W/O DiffuseMLP: PSNR=21.181 (↓1.755), SSIM=0.897, LPIPS=0.182
-- W/O L<sub>tone-mse</sub>: PSNR=22.113, SSIM=0.889, LPIPS=0.174
-- W/O L<sub>ssim</sub>: PSNR=18.371 (↓4.565), SSIM=0.792, LPIPS=0.211
-
-
-*🔒 The source code will be released later. Stay tuned for updates!*
 - W/O DiffuseMLP: PSNR=21.181 (↓1.755), SSIM=0.897, LPIPS=0.182
 - W/O L<sub>tone-mse</sub>: PSNR=22.113, SSIM=0.889, LPIPS=0.174
 - W/O L<sub>ssim</sub>: PSNR=18.371 (↓4.565), SSIM=0.792, LPIPS=0.211

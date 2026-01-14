@@ -11,9 +11,9 @@
 Endoscopic imaging is indispensable for minimally invasive surgeries and clinical diagnosis. However, inherent physical limitations—such as constrained light paths and narrow surgical cavities—often result in uneven illumination and dark regions in captured images. These issues obscure fine anatomical structures, hindering accurate observation and diagnosis.
 
 To address this challenge, we propose **AdaEndoGS**, an adaptive enlightening model for endoscopic scenes that integrates 3D Gaussian Splatting (3DGS) with physical lighting simulation. Our key contributions are:
-- 🎯 **Illuminatable 3D Scene Representation**: Extend standard 3DGS by augmenting each Gaussian with surface properties (normal vector, roughness, reflectance), enabling precise modeling of light-matter interactions.
-- 📡 **Adaptive Virtual Light Planning**: Leverage ray tracing to identify dark regions, combining Gaussian opacity, surface normal, and viewpoint information to dynamically place virtual light sources.
-- ⚡ **Physically Consistent Enhancement**: Ensure enhanced images maintain anatomical fidelity and color consistency, avoiding over-exposure, under-exposure, or structural distortion.
+- 🎯 **Adaptive Dark Region Enlightening**: Propose an adaptive enhancement method for dark regions, which automatically and effectively reduces the area of dark regions while improving the clarity of the entire endoscopic field of view.
+- 📡 **Ray-Tracing Driven Light Source Optimization**: Develop a ray tracing-based dark-region detection strategy, combined with adaptive virtual light source placement. This ensures bright regions avoid overexposure during enhancement, while integrating 3DGS scene reconstruction advantages to optimize illumination models for natural endoscopic scene quality.
+- 🗂️ **VEIDLA Dataset Construction**: Build the VEIDLA dataset, which contains paired low-light/well-lit endoscopic images—providing a dedicated resource for quantitative evaluation of endoscopic illumination enhancement methods.
 
 Comprehensive experiments on the VEIDLA (synthetic) and C3VD (real-world) endoscopic datasets validate the effectiveness of AdaEndoGS. Compared with state-of-the-art methods (RetinexNet, EnlightenGAN, Aleth-NeRF, vanilla 3DGS), our model achieves superior performance in dark region detail recovery and illumination uniformity, with more physically realistic results.
 
